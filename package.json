@@ -1,0 +1,17 @@
+{
+  "name": "maira-khan-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "tailwindcss -i src/input.css -o assets/css/tailwind.css --watch",
+    "build": "tailwindcss -i src/input.css -o assets/css/tailwind.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  },
+  "private": true
+}
